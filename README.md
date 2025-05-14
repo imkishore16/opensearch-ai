@@ -17,4 +17,3 @@ It's like a perplexity / searchGPT clone, but for _you_.
 - [GPT-4o-mini](https://openai.com)
 - [Cloudflare Pages](https://pages.cloudflare.com/) - A platform for building and deploying web applications
 
-Built by [Supermemory.ai](https://supermemory.ai) team.

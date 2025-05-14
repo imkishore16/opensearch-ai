@@ -77,3 +77,26 @@ export interface Thumbnail {
   original: string;
   logo: boolean;
 }
+
+export interface SearchHistory {
+  id: string;
+  query: string;
+  timestamp: string;
+  userId: string;
+}
+
+export interface Bookmark {
+  id: string;
+  url: string;
+  title: string;
+  description: string;
+  timestamp: string;
+  userId: string;
+  tags: string[];
+}
+
+export interface SearchFilters {
+  dateRange?: 'day' | 'week' | 'month' | 'year';
+  sourceType?: 'news' | 'article' | 'code' | 'social';
+  language?: string;
+}
